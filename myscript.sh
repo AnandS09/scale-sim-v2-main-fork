@@ -1,0 +1,1 @@
+python3 ./scalesim/scale.py -i gemm -c configs/tpuv4.cfg -t topologies/GEMM_mnk/test.csv
