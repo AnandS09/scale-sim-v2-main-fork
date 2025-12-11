@@ -229,8 +229,6 @@ class simulator:
             dataflow = self.conf.get_dataflow()
             s_row, s_col, t_time = self.topo.get_spatiotemporal_dims(layer_id=lid, df=dataflow)
             
-            if self.verbose:
-                print(f"Layer {lid} - Cycles: {total_cycles}, s_row: {s_row}, s_col: {s_col}, t_time: {t_time}")
             
             # Apply the appropriate linear model based on config
             if time_linear_model == 'TPUv4':
