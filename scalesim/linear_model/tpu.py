@@ -32,11 +32,11 @@ def tpuv5e_linear_model(cycles, s_row=1, s_col=1, t_time=1):
     """
     # TODO: Modify for V5
     if s_row <=128 and s_col <=128 and t_time <=128:
-        return 0.002762 * cycles - 0.062665
+        return  0.002133 * cycles - 0.168796
     elif s_row <=1024 and s_col <=1024 and t_time <=1024:
-        return 0.000388 * cycles + 2.05942
+        return 0.000167 * cycles + 1.158923
     else:
-        return 0.000202 * cycles + 29.7217
+        return 0.000159 * cycles -0.380696
 
 def tpuv6e_linear_model(cycles, s_row=1, s_col=1, t_time=1):
     """
