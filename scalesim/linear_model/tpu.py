@@ -57,3 +57,4 @@ def tpuv6e_linear_model(cycles, s_row=1, s_col=1, t_time=1):
         return 0.000068 * cycles + 1.546793
     else:
         return 0.000040 * cycles + 4.384712
+    
